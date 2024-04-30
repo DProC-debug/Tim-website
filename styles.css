@@ -1,0 +1,217 @@
+.top-section {background-color: #15DAD2;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Gamja Flower", sans-serif;
+  }
+
+p {font-family: "Noto Sans", sans-serif;}
+
+.hi {
+        padding: 300px 0;
+        color: white;
+        font-family: "Gamja Flower", sans-serif;
+        font-style: normal;
+        text-align: center;
+        margin: 0;
+        position: relative;
+}
+
+.hihi {
+        font-weight: 600;
+        font-size: 250px;
+        line-height: 150px;
+}
+
+.my-name {
+        font-weight: 400;
+        font-size: 80px;
+}
+
+.butterfly {
+        position: absolute;
+        top: 100px;
+        right: 250px;
+        width: 10%;
+        height: 20%;
+        transition: transform 3s ease;
+        }
+
+.butterfly:hover {transform: rotate(350deg)}
+
+
+
+.grass {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 40%;
+}
+
+.puppy {
+        position: absolute;
+        left: 50px;
+        bottom: -20px;
+        width: 30%;
+        height: 50%;
+}
+
+.know-me-section {
+        background-color: #FCFFE0;
+        color: #15DAD2;
+        padding: 40px 40px;
+}
+
+.know-me {
+        font-family: "Gamja Flower", sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 70px;
+        text-decoration: underline;
+}
+
+.img-div {
+        text-align: center;
+        display: block;
+}
+
+.my-img {
+        width: 30%;
+        height: 30%;
+        padding: 50px;
+
+}
+
+.my-intro {
+        font-style: normal;
+        text-align: left;
+        font-size: 30px;
+}
+
+.oau-link {
+        color: rgb(38, 155, 213);
+        text-decoration: none;
+}
+
+.socials {
+        background-color: #15DAD2;
+        color: white;
+}
+
+.socials-section {
+        font-family: "Gamja Flower", sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 80px;
+        padding: 40px 0 20px;
+}
+
+.flex-container {
+        display: flex;
+        gap: 3rem;
+        font-weight: 400;
+        font-size: 80px;
+        justify-content: center;
+        padding: 0 0 70px;
+        
+}
+
+.socials-link {
+        color: white;
+        text-decoration: none;
+}
+
+.hobbies-row {
+        background-color: #15DAD2;
+        height: 5px;
+}
+
+.hobbies {
+        font-family: "Noto Sans", sans-serif;
+        font-style: normal;
+        text-align: left;
+        font-size: 30px;
+        color: #15DAD2;
+        padding-bottom: 50px;
+}
+
+.chat-me {
+        font-family: "Gamja Flower", sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 50px;
+        color: #15DAD2;
+        padding-bottom: 20px;
+}
+
+.message-me {
+        font-family: "Gamja Flower", sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 50px;
+        color: #15DAD2;
+}
+
+.flex-container-me {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        font-size: 30px;  
+}
+
+.form {font-size: 30px;}
+
+.btn-size {
+        font-size: 30px;
+}
+
+.footer {
+        background-color: #15DAD2;
+        color: white;
+        padding: 10px;
+        font-family: "Gamja Flower", sans-serif;
+        font-weight: bold;
+        text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+        .hi {padding: 300px 30px;}
+        .hihi {font-size: 200px;}
+        .my-name {font-size: 60px;}
+        
+        .butterfly {
+                position: absolute;
+                top: 100px;
+                right: 100px;
+                width: 25%;
+                height: 20%;
+                }
+        
+        .puppy {
+                position: absolute;
+                left: 40px;
+                bottom: -23px;
+                width: 50%;
+                height: 35%;
+        }
+
+        .know-me {font-size: 50px;}
+
+        .my-img {
+                width: 80%;
+                height: 70%;
+                padding: 30px 0;
+        }
+
+        .my-intro {
+                padding: 20px;
+                font-size: 20px;
+        }
+
+        .socials-section {font-size: 50px;}
+
+        .flex-container {font-size: 50px;}
+
+        .chat-me {font-size: 40px;}
+
+}
